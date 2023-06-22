@@ -15,7 +15,7 @@ def data(file_path):
 
     return items, bin_capacity
 
-file_path = 'items.txt'
+file_path = 'items.txt' # 
 items, bin_capacity = data(file_path)
 
 
@@ -38,12 +38,9 @@ def goal_function(bin_configuration):
     num_used_bin = len([bin for bin in bin_configuration if bin > 0])
     return num_used_bin
 
+
 # # Brute force function
 # def brute_force(items, bin_capacity):
-    
-#     # Start the timer
-#     start_time = time.time()
-
 #     best_solution = None
 #     best_goal = float('inf')
 
@@ -67,11 +64,8 @@ def goal_function(bin_configuration):
 #             best_goal = goal
 #             best_solution = bins
 
-#      # Calculate the elapsed time
-#     elapsed_time = time.time() - start_time
-#     print("Brute Force Execution Time:", elapsed_time, "seconds")
-
 #     return best_solution, best_goal
+
 
 # Random hill climbing function
 def random_hill_climbing(items, bin_capacity, max_iterations):
@@ -79,15 +73,15 @@ def random_hill_climbing(items, bin_capacity, max_iterations):
     current_goal = goal_function(current_solution)
 
     for _ in range(max_iterations):
-        neighbor_bins = current_solution.copy()
+        neighbor_configuration = current_solution.copy()
 
         # Randomly select two items to swap
         idx1, idx2 = random.sample(range(len(items)), 2)
-        neighbor_bins[idx1], neighbor_bins[idx2] = neighbor_bins[idx2], neighbor_bins[idx1]
+        neighbor_configuration[idx1], neighbor_configuration[idx2] = neighbor_configuration[idx2], neighbor_configuration[idx1]
 
-        neighbor_solution = solver_function(neighbor_bins, bin_capacity)
+        neighbor_solution = solver_function(neighbor_configuration, bin_capacity)
         neighbor_goal = goal_function(neighbor_solution)
-        # print("Neighbor configuration: ", neighbor_solution)
+        # print("Neighbor configuration: ", neighbor_configuration)
         # print(neighbor_goal)
 
         if neighbor_goal < current_goal:
@@ -108,14 +102,15 @@ def determistic_hill_climbing(items, bin_capacity, max_iterations):
         idx1 = random.randrange(len(items) - 1)
         idx2 = idx1 + 1
         # Swap the positions of the selected items
-        neighbor_bins = current_solution.copy()
-        neighbor_bins[idx1], neighbor_bins[idx2] = neighbor_bins[idx2], neighbor_bins[idx1]
+        neighbor_configuration = current_solution.copy()
+        neighbor_configuration[idx1], neighbor_configuration[idx2] = neighbor_configuration[idx2], neighbor_configuration[idx1]
+        # print("Neighbor configuration: ", neighbor_configuration)
         
-        neighbor_solution = solver_function(neighbor_bins, bin_capacity)
+        neighbor_solution = solver_function(neighbor_configuration, bin_capacity)
         neighbor_goal = goal_function(neighbor_solution)
 
         if neighbor_goal < current_goal:
-            current_solution = neighbor_bins
+            current_solution = neighbor_solution
             current_goal = neighbor_goal
 
     return current_solution, current_goal
@@ -261,14 +256,8 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
 
 
 
-# Sample data
-#items = [4.5, 5.2, 2.1, 6, 3, 7, 1, 3, 5, 6, 1, 2, 4, 5, 6, 7, 8, 1, 1, 2, 5, 6]
-#items = [4.5, 5.2, 2.1, 6, 3, 7, 1, 3, 5, 6, 1, 2, 4, 5, 6, 7, 8, 1, 1, 2, 5, 6, 4.5, 5.2, 2.1, 6, 3, 7, 1, 3, 5, 6, 1, 2, 4, 5, 6, 7, 8, 1, 1, 2, 5, 6]
-#bin_capacity = 10.5
-
 max_iterations = int(sys.argv[1])
 tabu_size = int(sys.argv[2])
-
 
 # # Solve using brute force
 # brute_force_solution, num_used_bins = brute_force(items, bin_capacity)

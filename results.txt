@@ -1,0 +1,150 @@
+ Random Hill Climbing Time: 0.01569819450378418 seconds
+Random hill Climbing Solution: [10.0, 10.0, 10.0, 10.0, 10.1, 10.0, 10.1, 10.0, 9.2, 10.5, 10.0, 10.0, 9.0, 9.0, 10.5, 9.2, 7.0, 6.0, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.0009970664978027344 seconds
+Determistic Hill Climbing Solution: [10.1, 10.0, 10.2, 10.2, 10.0, 10.0, 10.0, 10.1, 10.0, 10.0, 10.5, 10.0, 10.5, 10.0, 10.0, 6.0, 7.0, 6.0, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.6354877948760986 seconds
+Taboo Search Solution: [10.0, 10.0, 10.0, 10.0, 10.0, 10.2, 10.1, 10.5, 10.5, 10.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 9.1, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.2973899841308594 seconds
+Taboo Search Backtrack Solution: [10.0, 10.1, 10.0, 10.0, 10.0, 10.5, 10.1, 10.2, 10.5, 10.0, 10.0, 10.0, 10.0, 10.0, 8.0, 5.2, 6.0, 7.0, 7.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 20 
+ Random Hill Climbing Time: 0.0 seconds
+Random hill Climbing Solution: [10.1, 10.0, 10.5, 10.0, 10.1, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 10.2, 9.0, 10.0, 10.5, 10.0, 9.0, 5.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 19 
+
+Determistic Hill Climbing Time: 0.0 seconds
+Determistic Hill Climbing Solution: [10.0, 10.0, 10.1, 10.5, 10.0, 10.5, 10.0, 10.2, 10.1, 10.2, 10.0, 10.0, 10.0, 10.0, 9.0, 6.0, 6.0, 7.0, 7.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.610445499420166 seconds
+Taboo Search Solution: [10.0, 10.5, 10.1, 10.2, 10.0, 10.1, 10.0, 10.0, 10.2, 10.5, 10.0, 10.0, 10.0, 9.0, 10.0, 10.0, 6.0, 7.0, 8.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.26267123222351074 seconds
+Taboo Search Backtrack Solution: [10.4, 10.1, 10.0, 10.0, 10.5, 10.0, 10.0, 10.1, 10.0, 10.0, 10.0, 10.5, 10.0, 8.0, 10.0, 9.0, 5.0, 6.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 20 
+ Random Hill Climbing Time: 0.0 seconds
+Random hill Climbing Solution: [10.0, 10.0, 10.1, 10.0, 10.0, 10.0, 10.0, 9.2, 9.0, 9.1, 9.5, 9.5, 8.0, 6.0, 6.0, 7.0, 6.0, 8.0, 10.2, 7.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 21 
+
+Determistic Hill Climbing Time: 0.0 seconds
+Determistic Hill Climbing Solution: [10.0, 10.2, 10.0, 10.0, 10.0, 10.0, 10.1, 10.0, 10.0, 10.0, 9.6, 10.5, 8.0, 10.2, 9.0, 6.0, 8.0, 8.0, 7.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.8493847846984863 seconds
+Taboo Search Solution: [10.1, 10.0, 10.0, 10.2, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.5, 10.2, 10.1, 10.0, 10.0, 10.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 18 
+
+Taboo Search Backtrack Time: 0.32454991340637207 seconds
+Taboo Search Backtrack Solution: [10.1, 10.1, 10.0, 9.7, 10.5, 10.0, 10.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 10.0, 10.0, 9.0, 8.0, 8.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 
+ Random Hill Climbing Time: 0.018774747848510742 seconds
+Random hill Climbing Solution: [10.0, 10.1, 10.0, 10.2, 10.0, 10.5, 10.0, 10.5, 10.2, 10.1, 10.0, 10.0, 8.0, 10.0, 8.0, 10.0, 6.0, 7.0, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.003999948501586914 seconds
+Determistic Hill Climbing Solution: [10.1, 10.0, 10.2, 10.0, 10.0, 9.6, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 8.0, 10.5, 7.0, 10.2, 8.0, 6.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.8330159187316895 seconds
+Taboo Search Solution: [10.0, 10.1, 10.0, 10.2, 10.0, 10.0, 10.1, 10.0, 10.0, 10.5, 10.0, 10.0, 9.0, 10.2, 10.5, 7.0, 10.0, 6.0, 8.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.27694082260131836 seconds
+Taboo Search Backtrack Solution: [10.1, 10.0, 10.0, 10.0, 10.0, 10.5, 10.0, 10.0, 10.0, 10.5, 10.0, 10.0, 10.1, 10.0, 10.0, 9.0, 10.4, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 
+ Random Hill Climbing Time: 0.003999233245849609 seconds
+Random hill Climbing Solution: [10.2, 10.0, 10.2, 10.5, 10.0, 10.5, 10.1, 10.0, 10.1, 10.0, 9.0, 10.0, 10.0, 10.0, 8.0, 8.0, 7.0, 7.0, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.003000020980834961 seconds
+Determistic Hill Climbing Solution: [10.0, 10.0, 10.2, 10.0, 10.0, 10.4, 10.5, 10.0, 10.0, 10.0, 10.0, 9.0, 8.0, 7.0, 10.0, 10.5, 10.0, 6.0, 10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 19 
+
+Taboo Search Time: 3.418337345123291 seconds
+Taboo Search Solution: [10.0, 10.0, 10.5, 10.5, 10.0, 10.0, 10.0, 10.1, 10.0, 10.1, 10.0, 10.0, 8.0, 10.0, 10.2, 8.0, 10.2, 6.0, 8.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.3469846248626709 seconds
+Taboo Search Backtrack Solution: [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.3, 10.1, 10.0, 10.0, 10.0, 9.0, 10.0, 10.2, 9.0, 6.0, 6.0, 6.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 20 
+ Random Hill Climbing Time: 0.004998207092285156 seconds
+Random hill Climbing Solution: [10.1, 10.0, 10.5, 10.2, 10.0, 10.0, 10.0, 10.0, 10.1, 9.0, 10.0, 9.5, 9.0, 10.0, 6.0, 10.2, 8.0, 7.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.00400090217590332 seconds
+Determistic Hill Climbing Solution: [10.2, 10.1, 10.0, 10.5, 10.0, 10.0, 9.0, 10.5, 10.0, 10.0, 10.1, 10.0, 9.0, 9.0, 6.0, 8.0, 7.0, 10.2, 5.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.5002849102020264 seconds
+Taboo Search Solution: [10.0, 10.5, 10.0, 10.0, 10.5, 10.1, 10.0, 10.0, 10.2, 10.0, 9.0, 9.0, 10.0, 10.2, 10.1, 10.0, 8.0, 7.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.27866077423095703 seconds
+Taboo Search Backtrack Solution: [10.0, 10.0, 10.0, 10.5, 10.2, 10.0, 10.5, 10.0, 10.0, 10.1, 10.0, 10.0, 10.2, 10.1, 7.0, 10.0, 5.0, 6.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 20 
+ Random Hill Climbing Time: 0.003988742828369141 seconds
+Random hill Climbing Solution: [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.5, 10.1, 10.0, 10.1, 10.5, 10.0, 10.0, 8.0, 9.0, 7.0, 10.0, 6.0, 10.4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 19 
+
+Determistic Hill Climbing Time: 0.0030002593994140625 seconds
+Determistic Hill Climbing Solution: [10.0, 10.1, 10.5, 10.1, 10.0, 10.0, 10.2, 10.0, 9.5, 9.0, 9.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 6.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 19 
+
+Taboo Search Time: 3.741274833679199 seconds
+Taboo Search Solution: [10.1, 10.0, 10.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.5, 10.0, 10.5, 10.1, 10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 18 
+
+Taboo Search Backtrack Time: 0.2836575508117676 seconds
+Taboo Search Backtrack Solution: [10.0, 10.0, 10.5, 10.1, 10.0, 10.0, 10.0, 10.0, 10.4, 10.0, 10.1, 10.0, 10.0, 9.0, 10.0, 10.5, 9.0, 5.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 
+ Random Hill Climbing Time: 0.004002094268798828 seconds
+Random hill Climbing Solution: [10.2, 10.0, 10.5, 10.1, 10.0, 10.0, 10.0, 10.0, 10.0, 10.2, 10.0, 10.5, 10.0, 10.0, 9.0, 10.1, 8.0, 7.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 19 
+
+Determistic Hill Climbing Time: 0.0039942264556884766 seconds
+Determistic Hill Climbing Solution: [10.1, 10.0, 10.0, 10.0, 10.0, 10.0, 10.5, 10.2, 9.0, 10.5, 9.1, 10.0, 10.0, 9.0, 10.0, 6.0, 5.2, 7.0, 8.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.53947114944458 seconds
+Taboo Search Solution: [10.1, 10.0, 10.5, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.1, 10.0, 10.5, 10.2, 9.0, 9.0, 7.0, 10.2, 10.0, 5.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.27727174758911133 seconds
+Taboo Search Backtrack Solution: [10.1, 10.0, 10.5, 10.0, 10.0, 10.0, 10.0, 10.5, 10.1, 10.0, 10.2, 10.0, 10.0, 10.0, 10.2, 10.0, 6.0, 8.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 
+ Random Hill Climbing Time: 0.003992557525634766 seconds
+Random hill Climbing Solution: [10.0, 10.1, 10.0, 10.2, 10.0, 10.0, 10.2, 10.5, 9.0, 10.0, 9.1, 9.0, 10.0, 8.0, 10.0, 10.5, 5.0, 8.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.003999471664428711 seconds
+Determistic Hill Climbing Solution: [10.0, 10.0, 10.0, 10.0, 10.5, 10.0, 10.1, 9.7, 10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 10.0, 9.1, 9.0, 7.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 19 
+
+Taboo Search Time: 3.681042194366455 seconds
+Taboo Search Solution: [10.0, 10.0, 10.0, 10.2, 10.0, 10.0, 10.0, 10.0, 10.0, 10.1, 10.0, 10.0, 10.0, 10.0, 10.5, 10.5, 10.1, 10.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 18 
+
+Taboo Search Backtrack Time: 0.3187088966369629 seconds
+Taboo Search Backtrack Solution: [10.1, 10.0, 10.0, 10.1, 10.5, 10.0, 10.5, 10.0, 9.0, 9.0, 9.0, 9.0, 10.0, 9.0, 10.2, 8.0, 7.0, 10.0, 10.2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 
+ Random Hill Climbing Time: 0.0049991607666015625 seconds
+Random hill Climbing Solution: [10.0, 10.0, 10.0, 10.5, 10.0, 10.1, 10.0, 10.4, 10.1, 10.0, 9.0, 10.0, 10.0, 10.0, 8.0, 9.5, 6.0, 6.0, 5.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Random hill Climbing Used bins: 20 
+
+Determistic Hill Climbing Time: 0.003000497817993164 seconds
+Determistic Hill Climbing Solution: [10.0, 10.2, 10.1, 10.0, 10.0, 10.0, 10.0, 10.1, 10.2, 10.0, 10.5, 10.0, 10.0, 8.0, 8.0, 7.0, 9.5, 6.0, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Determistic Hill Climbing Used bins: 20 
+
+Taboo Search Time: 3.6373379230499268 seconds
+Taboo Search Solution: [10.5, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.5, 10.0, 10.0, 10.0, 10.4, 10.0, 10.1, 8.1, 6.0, 6.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Used bins: 19 
+
+Taboo Search Backtrack Time: 0.3112812042236328 seconds
+Taboo Search Backtrack Solution: [10.0, 10.0, 10.0, 10.0, 10.5, 10.0, 10.0, 10.0, 9.0, 10.0, 9.1, 10.1, 10.0, 8.0, 10.5, 10.4, 8.0, 9.0, 7.0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Taboo Search Backtrack Used bins: 19 

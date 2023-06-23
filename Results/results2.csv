@@ -1,0 +1,12 @@
+random_hill_climbing, 21 0.002996683120727539
+hill_climbing, 19 0.0
+tabu_search, 19 3.020785331726074
+tabu_search_backtrack, 19 0.3313102722167969
+random_hill_climbing, 20 0.0029985904693603516
+hill_climbing, 20 0.003999471664428711
+tabu_search, 21 3.590715169906616
+tabu_search_backtrack, 20 0.3792579174041748
+random_hill_climbing, 18 0.01563262939453125
+hill_climbing, 19 0.0
+tabu_search, 20 3.7212436199188232
+tabu_search_backtrack, 20 0.39372730255126953

@@ -26,7 +26,7 @@ def tabu_search(items, bin_capacity, max_iterations, tabu_size):
             neighbor_goal = goal_function(neighbor_bins)
             neighborhood_goals.append(neighbor_goal)
 
-        # Find the best non-tabu move
+        # Check goals if are in tabu list
         best_move_index = -1
         best_move_goal = 0
         for i in range(len(neighborhood_goals)):

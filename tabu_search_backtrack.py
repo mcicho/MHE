@@ -18,32 +18,41 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
 
     while iteration < max_iterations:
 
-        neighbors = generate_neighborhood(current_solution)
-
         best_move_index = -1
         best_neighbor = None
         best_neighbor_goal = 0
+        neighborhood = generate_neighborhood(current_solution)
 
-        for idx, neighbor in enumerate(neighbors):
-            if neighbor not in tabu_list:
-                neighbor_goal = goal_function(neighbor)
-                if neighbor_goal < best_neighbor_goal:
-                    best_move_index = idx
-                    best_neighbor = neighbor
-                    best_neighbor_goal = neighbor_goal
+        # Collect neighborhood goals
+        neighborhood_goals = []
+        for neighbor in neighborhood:
+            neighbor_bins = solver_function(neighbor, bin_capacity)
+            neighbor_goal = goal_function(neighbor_bins)
+            neighborhood_goals.append(neighbor_goal)
 
+        # Check goals if are in tabu list
+        best_move_index = -1
+        best_move_goal = 0
+        for i in range(len(neighborhood_goals)):
+            if neighborhood_goals[i] < best_move_goal and neighborhood[i] not in tabu_list:
+                best_move_index = i
+                best_move_goal = neighborhood_goals[i]
+
+        # Update the current solution and better solution
         if best_move_index != -1:
-            # Update current solution and goal
-            current_solution = best_neighbor
-            current_goal = best_neighbor_goal
-
-            tabu_list.append(best_neighbor)
-            if len(tabu_list) > tabu_size:
-                tabu_list.pop(0)
+            current_solution = neighborhood[best_move_index]
+            current_bins = solver_function(current_solution, bin_capacity)
+            current_goal = goal_function(current_bins)
 
             if current_goal < best_goal:
-                best_solution = current_solution
+                best_solution = current_solution.copy()
+                best_bins = current_bins.copy()
                 best_goal = current_goal
+
+            # Add the current move to the tabu list
+            tabu_list.append(neighborhood[best_move_index])
+            if len(tabu_list) > tabu_size:
+                tabu_list.pop(0)
 
             # Push the move to the stack
             move_stack.append(best_neighbor)

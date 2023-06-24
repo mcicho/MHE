@@ -8,7 +8,6 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
     current_bins = solver_function(current_solution, bin_capacity)
     current_goal = goal_function(current_bins)
 
-    best_solution = current_solution.copy()
     best_bins = current_bins.copy()
     best_goal = current_goal
 
@@ -19,8 +18,6 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
     while iteration < max_iterations:
 
         best_move_index = -1
-        best_neighbor = None
-        best_neighbor_goal = 0
         neighborhood = generate_neighborhood(current_solution)
 
         # Collect neighborhood goals
@@ -45,7 +42,6 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
             current_goal = goal_function(current_bins)
 
             if current_goal < best_goal:
-                best_solution = current_solution.copy()
                 best_bins = current_bins.copy()
                 best_goal = current_goal
 
@@ -55,13 +51,13 @@ def tabu_search_backtrack(items, bin_capacity, max_iterations, tabu_size):
                 tabu_list.pop(0)
 
             # Push the move to the stack
-            move_stack.append(best_neighbor)
+            move_stack.append(current_solution)
         else:
             if move_stack:
                 # Backtrack to the last available move
                 current_solution = move_stack.pop()
                 current_goal = goal_function(current_solution)
-                tabu_list.pop()  # Remove the move from the tabu list
+                tabu_list.pop()
 
         #print_solution(best_goal, iteration)
         iteration += 1

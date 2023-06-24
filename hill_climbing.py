@@ -12,14 +12,13 @@ def hill_climbing(items, bin_capacity, max_iterations):
     current_goal = goal_function(current_bins)
 
     for i in range(max_iterations):
+        neighbor_configuration = current_solution.copy()
 
-        # Randomly select two neighboring items and swap
-        idx1 = random.randrange(len([i for i in current_solution if i > 0]) - 1)
+        # Select two neighboring items and swap
+        idx1 = random.randrange(len([i for i in neighbor_configuration if i > 0]) - 1)
         #idx1 = random.randrange(len(items) - 1)
         idx2 = idx1 + 1
-        neighbor_configuration = current_solution.copy()
         neighbor_configuration[idx1], neighbor_configuration[idx2] = neighbor_configuration[idx2], neighbor_configuration[idx1]
-        #neighbor_configuration = generate_neighborhood(current_bins)
 
         neighbor_solution = solver_function(neighbor_configuration, bin_capacity)
         neighbor_goal = goal_function(neighbor_solution)

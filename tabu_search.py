@@ -8,7 +8,6 @@ def tabu_search(items, bin_capacity, max_iterations, tabu_size):
     current_bins = solver_function(current_solution, bin_capacity)
     current_goal = goal_function(current_bins)
 
-    best_solution = current_solution.copy()
     best_bins = current_bins.copy()
     best_goal = current_goal
 
@@ -41,7 +40,6 @@ def tabu_search(items, bin_capacity, max_iterations, tabu_size):
             current_goal = goal_function(current_bins)
 
             if current_goal < best_goal:
-                best_solution = current_solution.copy()
                 best_bins = current_bins.copy()
                 best_goal = current_goal
 
@@ -53,7 +51,7 @@ def tabu_search(items, bin_capacity, max_iterations, tabu_size):
         #print_solution(best_goal, iteration)
         iteration += 1
 
-    return best_solution, best_goal
+    return best_bins, best_goal
 
 
 # # Solve using Tabu Search

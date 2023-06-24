@@ -19,8 +19,12 @@ def simulated_annealing(items, bin_capacity, max_iterations, temperature, coolin
         neighbor_configuration = current_solution.copy()
 
         # Select two random items and swap
-        idx1, idx2 = random.sample(range(len([i for i in current_solution if i > 0])), 2)
+        # idx1, idx2 = random.sample(range(len([i for i in current_solution if i > 0])), 2)
+        # neighbor_configuration[idx1], neighbor_configuration[idx2] = neighbor_configuration[idx2], neighbor_configuration[idx1]
+        idx1, idx2 = random.sample(range(len([i for i in neighbor_configuration if i > 0])), 2)
+        neighbor_configuration = current_solution.copy()
         neighbor_configuration[idx1], neighbor_configuration[idx2] = neighbor_configuration[idx2], neighbor_configuration[idx1]
+        
         neighbor_solution = solver_function(neighbor_configuration, bin_capacity)
         neighbor_goal = goal_function(neighbor_solution)
         

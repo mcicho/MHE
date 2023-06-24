@@ -22,23 +22,28 @@ def data(file_path):
 
 file_path = 'items/items.txt'  # small package
 # file_path = 'items/items1.txt'  # bigger package
-# file_path = 'items/items2.txt'  # bigger package with small ints
+## file_path = 'items/items2.txt'  # bigger package with small ints
 # file_path = 'items/items3.txt'  # huge package with small ints
 items, bin_capacity = data(file_path)
 
 
-# Read parameters from terminal
-if len(sys.argv) == 2:
-    max_iterations = int(sys.argv[1])
-elif len(sys.argv) == 3: 
-    max_iterations = int(sys.argv[1])
-    tabu_size = int(sys.argv[2])
-else:
-    max_iterations = int(sys.argv[1])
-    tabu_size = int(sys.argv[2])
-    temp = float(sys.argv[3])
-    cooling_rate = float(sys.argv[4])
+# # Read parameters from terminal
+# if len(sys.argv) == 2:
+#     max_iterations = int(sys.argv[1])
+# elif len(sys.argv) == 3: 
+#     max_iterations = int(sys.argv[1])
+#     tabu_size = int(sys.argv[2])
+# else:
+#     max_iterations = int(sys.argv[1])
+#     tabu_size = int(sys.argv[2])
+#     temp = float(sys.argv[3])
+#     cooling_rate = float(sys.argv[4])
+#     mutation_parameter = float(sys.argv[5])
 
+if len(sys.argv) == 4: 
+    max_iterations = int(sys.argv[1])
+    mutation_parameter = float(sys.argv[2])
+    id_mutation = int(sys.argv[3])
 
 # Function to pack items into bins
 def solver_function(items, bin_capacity):
@@ -79,7 +84,7 @@ def print_solution(goal, iteration):
     print(iteration, goal)
 
 # Dot plot with Number of used bins vs Elapsed time
-with open('results/results3.txt', 'r') as file:
+with open('results/results4.txt', 'r') as file:
     data = file.readlines()
 
 colors = []
@@ -104,13 +109,13 @@ plt.scatter(x_values, y_values, c=[color_mapping[color] for color in colors])
 plt.xlabel('Number of used bins')
 plt.ylabel('Elapsed time')
 plt.title('Number of used bins vs Elapsed time')
-legend_elements = [plt.Line2D([0], [0], marker='o', color='w', label='random_hill_climbing', markerfacecolor='red', markersize=4),
-                   plt.Line2D([0], [0], marker='o', color='w', label='hill_climbing', markerfacecolor='green', markersize=4),
-                   plt.Line2D([0], [0], marker='o', color='w', label='tabu_search', markerfacecolor='blue', markersize=4),
-                   plt.Line2D([0], [0], marker='o', color='w', label='tabu_search_backtrack', markerfacecolor='orange', markersize=4),
-                   plt.Line2D([0], [0], marker='o', color='w', label='simulated_annealing', markerfacecolor='purple', markersize=4)]
+legend_elements = [plt.Line2D([0], [0], marker='o', color='w', label='random_hill_climbing', markerfacecolor='red', markersize=7),
+                   plt.Line2D([0], [0], marker='o', color='w', label='hill_climbing', markerfacecolor='green', markersize=7),
+                   plt.Line2D([0], [0], marker='o', color='w', label='tabu_search', markerfacecolor='blue', markersize=7),
+                   plt.Line2D([0], [0], marker='o', color='w', label='tabu_search_backtrack', markerfacecolor='orange', markersize=7),
+                   plt.Line2D([0], [0], marker='o', color='w', label='simulated_annealing', markerfacecolor='purple', markersize=7)]
 plt.legend(handles=legend_elements, loc='upper right')
-plt.show()
+#plt.show()
 
 
 
